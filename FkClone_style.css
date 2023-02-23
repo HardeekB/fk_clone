@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+nav {
+height: 50px;
+background-color: #2874f0;
+padding: 6px;
+padding-right: 0%;
+}
+
+.FkLogo {
+    /* Div class insde nav*/
+    height: 40px;
+    width: 100px;
+    margin-left: 20%;
+    float: left;
+    /* border: 2px solid black; */
+    /* position: relative; */
+}
+
+.FkLogo_flipkart {
+    margin-top: 3px;
+}
+
+
+.FkLogo p {
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    color: aliceblue;
+
+}
+
+/* END OF DIV=FK LOGO */
+
+
+.SearchBar {
+    /* Div class */
+float: left;
+width: 530px;
+height: 40px;
+/* border: red dotted 3px; */
+margin-top: 4px;
+}
+
+
+.head_nav_search {
+    height: 30px;
+    width: 500px;
+    border-radius: 3px;
+    border-color: aliceblue;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.SearchBar i {
+    position: relative;
+    right: 25px;
+    color: #2874f0;
+}
+
+/* END OF DIV=SEARCHBAR */
+
+
+
+.NavEnd {
+    /* Div class */
+    height: 40px;
+    width: 600px;
+    /* border-style: double; */
+    /* border-color: black; */
+    float: left;
+    margin-left: 10%;
+    margin-top: 4px;
+    position: relative;
+
+}
+
+.Login_button {
+    color: #2874f0;
+    background-color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    border: #2874f0;
+    top: 3px;
+}
+
+.NavEnd span {
+    color: aliceblue;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    border-style: hidden;
+    top: 4px;
+}
+.NavEnd i{
+    color:#2874f0;
+    color:aliceblue;
+}
+
+
+/* ------- end of logo and search bar------- */
+/* nav tag ended */
+
+
+.Categories_filter{
+    /* main div container */
+height: 115px;
+width: 1700px;
+float: left;
+/* border-style: groove; */
+background-color: white;
+}
+
+.Categories_filter img{
+    height: 80px;
+    width: 90px;   
+    margin-left: 20px;
+    /* margin:auto  */
+}
+
+.Categories_filter figcaption{
+    margin-top: -3px;
+    margin-left: 26px;
+}
+
+.Categories_filter div{
+    /* border-style: double; */
+    position:relative;
+    height: 111px;
+    width: 120px;
+    float:left;
+    /* border-style: ridge; */
+    margin-left: 0.78%;
+    margin: auto;
+}
+
+/* ------- end of Categories section ------- */
+/* categories tag ended */
+
+.Home_mainContainer{
+/* main home tag containing list of products */
+/* border-style: solid; */
+/* border-color: black; */
+float: left;
+height: 810px;
+width: 1860px;
+padding-left: 115px;
+padding-right: 90px;
+padding-top: 15px;
+background-color: rgb(233, 236, 240);
+}
+
+.DealDay_home{
+    /* 1st Main container insde Home_mainContainer */
+/* border-style: solid; */
+/* border-color: blue; */
+height: 380px;
+width: 1462px;
+background-color: white;
+margin-top: 7px;
+}
+.DealdayHome_title{
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.DealdayHome_productList{
+    /* div container */
+    padding: 12px;
+    padding-top: 10px;
+    float: left;
+    height: calc(100% - 54px);
+    width: 208px;
+    /* border-style: inset; */
+}
+.DealdayHome_productList img{
+    height: 180px;
+    /* width: 10px; */
+}
+.DealdayHome_FigCap1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px;
+}
+.DealdayHome_FigCap2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:green ;
+    font-size: 14px;
+    padding: 7px;
+}
+.DealdayHome_FigCap3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 7px;
+    
+}
+.NextButton_Dealday{
+    position: absolute; 
+    top:350px;  
+    background-color: white;
+    padding: 16px; 
+    padding-top: 30px; 
+    padding-bottom: 30px;   
+    font-size: 20px; 
+    font-weight: 1000; 
+    left: 1535.5px;
+    box-shadow: 0px 0px 5px 1px lightgrey ;
+}
+.DealDayBeside_advert{
+    /* border: solid red 2px; */
+    height: 377.5px;
+    width: 180px;
+    float: right;
+    position: relative;
+    margin-top: 8px;
+  
+}
+
+.BookInstrument_home{
+background-color: white;
+padding: 12px;
+    padding-top: 10px;
+    float: left;
+    /* height: calc(100% - 54px);
+    width: 208px; */
+    width: calc(100.01%);
+    /* border-style: inset; */
+    margin-top: 10px;
+}
+.Book_title{
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
