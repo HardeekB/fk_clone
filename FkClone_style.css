@@ -49,18 +49,23 @@ margin-top: 4px;
 
 
 .head_nav_search {
-    height: 30px;
+    height: 35px;
     width: 500px;
     border-radius: 3px;
     border-color: aliceblue;
     color: aliceblue;
     padding: 10px;
+    position: relative;
+    margin-top: -4px;
 }
 
 .SearchBar i {
     position: relative;
-    right: 25px;
+    right: 33px;
+    top: 2px;
     color: #2874f0;
+    border: none;
+    font-weight: bolder;
 }
 
 /* END OF DIV=SEARCHBAR */
@@ -83,12 +88,12 @@ margin-top: 4px;
 .Login_button {
     color: #2874f0;
     background-color: aliceblue;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 37px;
+    padding-right: 37px;
     float: left;
     border: #2874f0;
     top: 3px;
