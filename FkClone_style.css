@@ -6,12 +6,12 @@
 }
 
 nav {
-height: 56px;
+height: 50px;
 background-color: #2874f0;
 padding: 6px;
 padding-right: 0%;
 width: 1860px;
-border: solid darkgreen;
+/* border: solid darkgreen; */
 }
 
 @media screen and (max-width: 1860px) {
@@ -26,7 +26,7 @@ border: solid darkgreen;
     width: 100px;
     margin-left: 20%;
     float: left;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* position: relative; */
 }
 
@@ -51,7 +51,7 @@ border: solid darkgreen;
 float: left;
 width: 530px;
 height: 40px;
-border: red dotted 3px;
+/* border: red dotted 3px; */
 margin-top: 4px;
 }
 
@@ -84,8 +84,8 @@ margin-top: 4px;
     /* Div class */
     height: 40px;
     min-width: 20%;
-    border-style: double;
-    border-color: black;
+    /* border-style: double; */
+    /* border-color: black; */
     float: left;
     margin-left: 4%;
     margin-top: 4px;
